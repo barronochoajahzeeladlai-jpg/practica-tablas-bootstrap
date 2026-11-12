@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tablas Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  </head>
+
+  <body class="bg-light">
+
+    <div class="container mt-4 mb-5">
+
+      <h1 class="text-center">Estilos de tablas en Bootstrap</h1>
+      <p class="text-center">Alumna: Barròn Ochoa Jahzeel Adlai</p>
+
+      <hr>
+
+      
+      <h3>1. Tabla básica - table</h3>
+      <p>La clase <strong>table</strong> sirve para aplicar un formato básico a las tablas, agregando espacios y bordes inferiores.</p>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ana</td>
+            <td>ana@gmail.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pedro</td>
+            <td>pedro@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h3>2. Table-striped</h3>
+      <p>La clase <strong>table-striped</strong> sirve para alternar los colores de las filas y facilitar la lectura de los datos.</p>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Producto</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Teclado</td>
+            <td>$250</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mouse</td>
+            <td>$150</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+   
+      <h3>3. Table-dark</h3>
+      <p>La clase <strong>table-dark</strong> sirve para cambiar el fondo de la tabla a oscuro y utilizar texto claro.</p>
+
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Empleado</th>
+            <th>Puesto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>María</td>
+            <td>Administradora</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Juan</td>
+            <td>Vendedor</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+
+      <h3>4. Table-hover</h3>
+      <p>La clase <strong>table-hover</strong> sirve para resaltar una fila cuando el usuario coloca el cursor sobre ella.</p>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Alumno</th>
+            <th>Grupo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Laura</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Carlos</td>
+            <td>B</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h3>5. Table-bordered</h3>
+      <p>La clase <strong>table-bordered</strong> sirve para agregar bordes alrededor de todas las celdas de la tabla.</p>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ciudad</th>
+            <th>País</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Mazatlán</td>
+            <td>México</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Santiago</td>
+            <td>Chile</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h3>6. Table-sm</h3>
+      <p>La clase <strong>table-sm</strong> sirve para reducir el espacio interno de las celdas y hacer la tabla más compacta.</p>
+
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Materia</th>
+            <th>Calificación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Programación</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Base de datos</td>
+            <td>90</td>
+          </tr>
+      </table>
+
+      <hr>
+
+      <h3>7. Table caption-top</h3>
+      <p>La clase <strong>caption-top</strong> sirve para colocar el título o descripción de la tabla en la parte superior.</p>
+
+      <table class="table table-bordered caption-top">
+        <caption>Lista de alumnos registrados</caption>
+        <thead class="table-primary">
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Semestre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Daniela</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Roberto</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+  </body>
+</html>
